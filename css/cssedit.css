@@ -1,0 +1,330 @@
+/* @override
+	http://macrabbit.com/cssedit/styles/cssedit2.5.css
+*/
+
+#side.extrapadding {
+	padding-top: 25px;
+}
+
+#cssedit-logo {
+	display: block;
+	width: 110px;
+	height: 190px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 0;
+	background: url(../images/AppHalf.png) no-repeat 100% 0;
+	margin-left: 0;
+	z-index: 1;
+	position: relative;
+}
+
+/* @group Catwalk */
+
+#main #catwalk {
+	margin: -2px 1px 0 0;
+	padding: 0;
+	text-align: justify;
+	height: 48px;
+	background: url(../images/CatWalk4.jpg) no-repeat 0 0;
+	position: relative;
+}
+
+#catwalk li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#main #catwalk-texts {
+	border-bottom: 1px dotted #d5d5d5;
+}
+
+#main #catwalk-texts h2 {
+	position: relative;
+	text-align: center;
+	margin: 10px 0 0;
+}
+
+#main #catwalk-texts p {
+	margin-bottom: 15px;
+	margin-top: 8px;
+	text-align: justify;
+}
+
+#main #catwalk-texts .hidden {
+	display: none;
+}
+
+/* @group My Group */
+
+#main #catwalk a {
+	height: 48px;
+	display: block;
+	border-style: none;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	text-indent: -1000em;
+}
+
+#main #catwalk a:hover, #main #catwalk a.active {
+	background-image: url(../images/CatWalk4.jpg);
+}
+
+#cwpreview {
+	width: 52px;
+	margin-left: 0;
+	left: 87px;
+}
+
+#cwselector {
+	width: 52px;
+	left: 139px;
+}
+
+#cwvisual {
+	width: 53px;
+	left: 191px;
+}
+
+#cwsource {
+	width: 52px;
+	left: 244px;
+}
+
+#cwxray {
+	width: 54px;
+	left: 296px;
+}
+
+#cwvalidate {
+	width: 55px;
+	left: 350px;
+}
+
+#cwmilestones {
+	width: 53px;
+	left: 405px;
+}
+
+#cwpreview:hover, #cwpreview.active {
+	background-position: -87px -48px;
+}
+
+#cwselector:hover, #cwselector.active {
+	background-position: -139px -48px;
+}
+
+#cwvisual:hover, #cwvisual.active {
+	background-position: -191px -48px;
+}
+
+#cwsource:hover, #cwsource.active {
+	background-position: -244px -48px;
+}
+
+#cwxray:hover, #cwxray.active {
+	background-position: -296px -48px;
+}
+
+#cwvalidate:hover, #cwvalidate.active {
+	background-position: -350px -48px;
+}
+
+#cwmilestones:hover, #cwmilestones.active {
+	background-position: -405px -48px;
+}
+
+
+
+/* @end */
+
+/* @group Texts */
+
+#cwselector-text h2 {
+	color: #09606c;
+}
+
+#cwvisual-text h2 {
+	color: #673d93;
+}
+
+#cwsource-text h2 {
+	color: #b16506;
+}
+
+#cwxray-text h2 {
+	color: #5090b8;
+}
+
+#cwvalidate-text h2 {
+	color: #c71525;
+}
+
+#cwmilestones-text h2 {
+	color: #5a8442;
+}
+
+
+
+/* @end */
+
+/* @end */
+
+#intro {
+	margin: 2px 3px 1px 0;
+	padding: 20px 20px 10px 0;
+	color: #fff;
+	background: #545454 url(../../global/images/DarkGradient.gif) repeat-x;
+}
+
+#intro img {
+	float: left;
+	display: block;
+}
+
+#intro h2 {
+	font: normal normal 34px/1 "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: lowercase;
+	float: left;
+	text-shadow: #242424 0 1px 1px;
+	color: #f2f2f2;
+	margin: 6px 20px 0 10px;
+}
+
+#intro h2 span {
+	font-size: 17px;
+	color: #c8c8c8;
+	text-shadow: none;
+	position: relative;
+	top: -4px;
+	left: -2px;
+}
+
+#intro p {
+	margin: 0 0 0 120px;
+	text-align: left;
+	font-size: 12px;
+	color: #a7a7a7;
+}
+
+#intro .buttons {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 17px;
+}
+
+#intro .buttons a {
+	color: #fff;
+	border-style: none;
+}
+
+#intro .buttons a:hover {
+	text-decoration: underline;
+}
+
+#intro .download {
+	background: url(../images/DownloadBuyNowDark.gif) no-repeat 0 50%;
+	padding-left: 14px;
+}
+
+#intro .buynow {
+	background: url(../images/DownloadBuyNowDark.gif) no-repeat -1000px 50%;
+	padding-left: 18px;
+}
+
+/* @group Banner */
+
+.banner {
+	height: 220px;
+	background: url(../images/BannerText.png) no-repeat 40px 50%;
+	margin-bottom: 0;
+	position: relative;
+}
+
+.banner .app-icon {
+	position: absolute;
+	bottom: -60px;
+	right: 15px;
+}
+
+
+
+/* @end */
+
+/* @group App Actions */
+
+.app-actions {
+	top: 84px;
+	right: 270px;
+}
+
+/* @end */
+
+/* @group Features */
+
+.feature-nav .preview a {
+	background-image: url(../images/FeaturePreview.png);
+}
+
+.feature-nav .selectorbuilder a {
+	background-image: url(../images/FeatureSelectorBuilder.png);
+}
+
+.feature-nav .visualeditors a {
+	background-image: url(../images/FeatureVisualEditing.png);
+}
+
+.feature-nav .sourceediting a {
+	background-image: url(../images/FeatureSourceEditing.png);
+}
+
+.feature-nav .xray a {
+	background-image: url(../images/FeatureXRay.png);
+}
+
+.feature-nav .validation a {
+	background-image: url(../images/FeatureValidation.png);
+}
+
+.feature-nav .milestones a {
+	background-image: url(../images/FeatureMilestones.png);
+}
+
+/* @end */
+
+
+/* @group Espresso banner */
+
+.espresso-banner {
+	font: italic bold 13px "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+.espresso-banner strong {
+	font-size: 1.5em;
+}
+
+.espresso-banner, .espresso-banner p {
+	margin: 0;
+	padding: 0;
+}
+
+.espresso-banner a {
+	display: block;
+	overflow: hidden;
+	text-indent: -1000em;
+	background-image: url(../images/TryEspressoBanner.gif);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	height: 45px;
+	width: 100%;
+}
+
+.espresso-banner a:hover {
+	background-position: 50% 100%;
+}
+
+/* @end */

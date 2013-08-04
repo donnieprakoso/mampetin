@@ -1,0 +1,149 @@
+/* @group App Navigation */
+
+ul.app-nav {
+	margin-bottom: 33px;
+}
+
+.app-nav, .app-nav * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 11px;
+}
+
+.app-nav li a {
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	text-decoration: none;
+	-webkit-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	color: #999;
+}
+
+.app-nav li a:hover {
+	color: #008bcc;
+}
+
+.app-nav li.active a {
+	background-color: #fff;
+	color: #777;
+	bborder-bottom: 1px solid #cecece;
+	-webkit-box-shadow: #d8d8d8 0 1px 1px;
+}
+
+/* @end */
+
+/* @group Feature Navigation */
+
+ul.feature-nav {
+	display: block;
+	float: right;
+	margin-top: 43px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	text-align: left;
+	line-height: 1.4;
+}
+
+ul.feature-nav .header {
+	color: #aaa;
+	text-shadow: #fff 0 1px 0;
+	padding-left: 0;
+	margin-left: 5px;
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 7px;
+	background: none;
+	cursor: default;
+}
+
+.feature-nav, .feature-nav * {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.feature-nav li {
+	position: relative;
+	z-index: 1;
+}
+
+.feature-nav a {
+	display: block;
+	padding: 20px 25px 24px 50px;
+	text-decoration: none;
+	line-height: 1em;
+	color: #606060;
+	margin-bottom: -14px;
+	background-repeat: no-repeat;
+	background-position: 11px 45%;
+}
+
+.feature-nav a:hover {
+	color: #333;
+}
+
+.feature-nav li:hover {
+	background: url(../images-apps/FeatureNavTabHover.png) no-repeat 0 50%;
+}
+
+.feature-nav li.header:hover {
+	background: none;
+}
+
+.feature-nav .active, .feature-nav .active:hover {
+	background: url(../images-apps/FeatureNavTab.png) no-repeat 0 50%;
+	z-index: 2;
+}
+
+.feature-nav .active a {
+	font-weight: bold;
+	color: #333;
+}
+
+
+
+/* @end */
+
+.content {
+	background: url(../images-apps/PageGradient.png) repeat-x;
+	padding-top: 0;
+}
+
+/* @group Action Buttons */
+
+.app-actions, .app-actions * {
+	list-style: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.app-actions {
+	background: #e0e0e0 url(../images-apps/AppActionGradient.png) repeat-x 0 0;
+	-webkit-border-radius: 3px;
+	padding: 5px 0 4px;
+	position: absolute;
+}
+
+.app-actions a {
+	padding: 5px 0;
+	color: #444;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: #fff 0 1px 0;
+}
+
+.app-actions .download a {
+	background: url(../images-apps/AppActionDownload.png) no-repeat 10px 50%;
+	padding-left: 26px;
+	padding-right: 11px;
+}
+
+.app-actions .buy a {
+	background: url(../images-apps/AppActionBuy.png) no-repeat 0 50%;
+	padding-left: 39px;
+	padding-right: 10px;
+}
+
+/* @end */

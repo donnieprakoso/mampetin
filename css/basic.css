@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font: 12px/1.9 "Lucida Grande", Lucida, Verdana, sans-serif;
+    color: #333;
+    background-color: #fff;
+
+    color:#564b47;
+    padding:20px;
+    margin:0px;
+    text-align: center;
+}
+#inhalt {
+    text-align: left;
+    vertical-align: middle;
+    margin: 0px auto;
+    padding: 0px;
+    width: 550px;
+    background-color: #ffffff;
+    border: 1px dashed #564b47;
+}
+
+.title
+{
+    font-size:25px;
+
+}
+
+
+.underlinemenu{
+    font-weight: bold;
+    width: 100%;
+}
+
+.underlinemenu ul{
+    padding: 6px 0 7px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+    margin: 0;
+    text-align: center;
+}
+
+.underlinemenu ul li{
+    display: inline;
+}
+
+.underlinemenu ul li a{
+    color: #494949;
+    padding: 6px 3px 4px 3px; /*top padding is 6px, bottom padding is 4px*/
+    margin-right: 20px; /*spacing between each menu link*/
+    text-decoration: none;
+    border-bottom: 3px solid gray; /*bottom border is 3px*/
+}
+
+.underlinemenu ul li a:hover, .underlinemenu ul li a.selected{
+    border-bottom-color: black;
+}
+
+#footer { margin-top:20px;}
+
+#url{ font-size:14px; padding:5px;}
+
+#shortenButton { font-size:16px; padding:3px;}
+
+.result{ font-size:14px; font-weight:bold;}
+
+.bigResult{ font-size:18px; font-weight:bold; }
